@@ -1,9 +1,9 @@
 #pragma once
 
-#include <iostream>
 #include "ATarget.hpp"
 
-class Dummy:public ATarget
+class ATarget;
+class Dummy: public ATarget
 {
 	public:
 			Dummy();
